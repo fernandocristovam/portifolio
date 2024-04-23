@@ -1,13 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
+*{
+    margin: 0%;
+}
+
 body{
     background-color: #00B3AD;
 }
 
 nav{
-    background-color: #FF6B1A;
+    background-color:#004947;
     font-size: 50px;
+}
+
+a{
+    color: red;
+    font-size: 80%;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+img{
+    border: #FF6B1A solid 10px;
+    border-radius: 10%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 .nome{
@@ -19,7 +42,11 @@ nav{
 }
 
 .minhafoto{
-    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    justify-content: flex-end;
+
 }
 
 .ptipo01{
@@ -34,6 +61,10 @@ nav{
 
 .divsobremim{
     background-color: #006663;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
 }
 
 .h2padra{
@@ -46,6 +77,6 @@ nav{
 .contatos{
     font-size: 30px;
     background-color: #006663;
-    font-family: "Roboto Condensed", sans-serif;
+    
    
 }
