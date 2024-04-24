@@ -22,6 +22,7 @@ a:hover{
 }
 
 nav{
+<<<<<<< HEAD
     background-color: #003645;
     font-size: 50px;
 }
@@ -41,6 +42,29 @@ img{
       overflow:auto;  
       margin-top: 0%;
       margin-bottom: 0%;
+=======
+    background-color:#004947;
+    font-size: 50px;
+}
+
+a{
+    color: red;
+    font-size: 80%;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+p{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+img{
+    border: #FF6B1A solid 10px;
+    border-radius: 10%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+>>>>>>> 4b98b80b49501e06dbb233c19d55b4b3219e0ce1
 }
 
 .nome{
@@ -53,7 +77,11 @@ img{
 }
 
 .minhafoto{
-    text-align: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    justify-content: flex-end;
+
 }
 
 .ptipo01{
@@ -70,10 +98,17 @@ img{
 
 .divsobremim{
     background-color: #006663;
+<<<<<<< HEAD
     margin-left: 25%;
     padding: 1%;
     padding-top: 0.5;
     padding-bottom: 2%;
+=======
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+>>>>>>> 4b98b80b49501e06dbb233c19d55b4b3219e0ce1
 }
 
 .h2padra{
@@ -89,8 +124,12 @@ img{
     height: 17.1rem;
     font-size: 30px;
     background-color: #006663;
+<<<<<<< HEAD
     font-family: "Roboto Condensed", sans-serif;
     margin-bottom: 1.17%;
     width: 80rem;
+=======
+    
+>>>>>>> 4b98b80b49501e06dbb233c19d55b4b3219e0ce1
    
 }
